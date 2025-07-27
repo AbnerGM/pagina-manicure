@@ -5,6 +5,7 @@ Está diseñada como un **prototipo visual estático**, sin base de datos, ideal
 ## Vista del proyecto:
 
 > 🎥 Puedes ver una demostración visual en el siguiente video:
+   PRESIONA LA IMAGEN PARA QUE TE LLEVE AL VIDEO:
 
 <a href="https://www.youtube.com/watch?v=inaFtLl9e5w&ab_channel=AbnerGomez123" target="_blank">
   <img width="100%" alt="imagen" src="https://github.com/user-attachments/assets/5fab4320-5bd4-4efd-8b6b-9634d0fe3162" />
