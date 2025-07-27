@@ -1,0 +1,202 @@
+
+:root {
+  --color-lila: #8a79af;
+  --color-purpura: #5d3a7d;
+  --color-fondo: #f4f0fa;
+  --color-texto: #3b2e5a;
+  --color-blanco: #fff;
+  --color-hover: #6b5ea3;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  margin: 0;
+  padding-top: 70px; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  background-color: var(--color-blanco);
+  border-bottom: 1px solid #ddd;
+  padding: 1.4rem 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1030;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-text {
+  color: var(--color-purpura);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link .navbar-nav{
+  font-weight: 600;
+  color: var(--color-texto);
+  transition: color 0.3s ease;
+  font-size: 1.2 rem;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--color-lila);
+}
+
+.hero {
+  height: 200px;
+  background-color: var(--color-lila);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.section-title {
+  color: var(--color-purpura);
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--color-lila);
+  padding-bottom: 0.5rem;
+  max-width: max-content;
+    margin-left: auto; 
+  margin-right: auto; 
+  text-align: center; 
+  display: block;     
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  margin: 6px;
+}
+
+.servicio-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(90, 79, 160, 0.15);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  background-color: var(--color-blanco);
+}
+
+.servicio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(90, 79, 160, 0.3);
+}
+
+.servicio-card .icon {
+  font-size: 3rem;
+  color: var(--color-lila);
+}
+
+.servicio-card .card-title {
+  color: var(--color-purpura);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.precios-table {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.precios-table th {
+  background-color: var(--color-lila);
+  color: var(--color-blanco);
+  font-weight: 700;
+  text-align: center;
+}
+
+.precios-table td {
+  text-align: center;
+  vertical-align: middle;
+  color: var(--color-texto);
+}
+
+
+.img-fluid {
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(90, 79, 160, 0.15);
+}
+
+
+.reserva {
+  background-color: var(--color-blanco);
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 12px rgba(90, 79, 160, 0.1);
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-purpura {
+  background-color: var(--color-purpura);
+  color: var(--color-blanco);
+  font-weight: 700;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-purpura:hover,
+.btn-purpura:focus {
+  background-color: var(--color-lila);
+  color: var(--color-blanco);
+}
+
+
+footer.footer {
+
+  color: var(--color-blanco);
+  padding: 1rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .precios-table {
+    font-size: 1rem;
+  }
+}
+
+.navbar-brand img {
+  width: 77px; 
+  height: auto;
+}
+
+.manicure{
+    border-radius: 50% !important;
+}

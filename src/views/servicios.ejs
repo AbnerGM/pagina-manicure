@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centro de Belleza - Servicios</title>
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/servicios.css" rel="stylesheet" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <header class="navbar navbar-expand-lg navbar-light shadow-sm bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="/img/logo-1.webp" alt="Logo" class="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/">Inicio</a>
+          <a class="nav-link" href="/nosotros">Nosotros</a>
+          <a class="nav-link" href="/servicios">Servicios</a>
+          <a class="nav-link" href="/ubicacion">Ubicación</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero bg-lila text-white d-flex align-items-center justify-content-center">
+    <h1 class="display-4 fw-bold">Nuestros Servicios Profesionales</h1>
+  </section>
+
+  <main class="container my-5 flex-grow-1">
+
+    <section class="mb-5">
+      <h2 class="section-title mb-4">Servicios que ofrecemos</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card servicio-card h-100">
+            <div class="card-body text-center">
+              <div class="icon mb-3">💅</div>
+              <h5 class="card-title">Manicure Tradicional</h5>
+              <p class="card-text">Cuidado completo para tus uñas con esmaltado profesional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card h-100">
+            <div class="card-body text-center">
+              <div class="icon mb-3">✨</div>
+              <h5 class="card-title">Uñas Acrílicas</h5>
+              <p class="card-text">Diseños resistentes y elegantes para realzar tu estilo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card h-100">
+            <div class="card-body text-center">
+              <div class="icon mb-3">🧖‍♀️</div>
+              <h5 class="card-title">Limpieza Facial</h5>
+              <p class="card-text">Tratamientos faciales para una piel fresca y radiante.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card h-100">
+            <div class="card-body text-center">
+              <div class="icon mb-3">💆</div>
+              <h5 class="card-title">Masajes Relajantes</h5>
+              <p class="card-text">Relaja cuerpo y mente con nuestros masajes profesionales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title mb-4">Lista de precios</h2>
+      <table class="table table-striped precios-table">
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Precio (S/)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Manicure Tradicional</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Uñas Acrílicas</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Limpieza Facial</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>Masajes Relajantes</td>
+            <td>60</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title mb-4">Galería</h2>
+      <div class="row g-3">
+        <div class="col-md-6 d-flex text-center align-items-center justify-content-center">
+          <img src="/img/manicure-1.jpg" alt="Manicure" class="manicure img-fluid rounded shadow" height="600" width="400"/>
+        </div>
+        <div class="col-md-6">
+          <img src="/img/manicure.jpg" alt="manicure" class="manicure img-fluid rounded shadow" height="600" width="400 "/>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5 text-center reserva">
+      <h2 class="section-title mb-3">Reserva tu cita ahora</h2>
+      <p class="mb-4 fs-5">📞 Llámanos al <strong>999-999-999</strong> o visítanos en nuestra sede.</p>
+      <a href="tel:999999999" class="btn btn-purpura btn-lg">Llamar ahora</a>
+    </section>
+
+  </main>
+
+  <footer class="footer mt-auto py-3 text-center bg-dark">
+    <div class="container">
+      <p>&copy; 2025 Manicure & Cosmiatría - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

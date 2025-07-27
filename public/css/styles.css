@@ -1,0 +1,302 @@
+
+:root {
+  --color-lila: #8a79af;
+  --color-purpura: #5d3a7d;
+  --color-fondo: #f4f0fa;
+  --color-texto: #3b2e5a;
+}
+
+
+h1{
+  font-size: 1.7rem !important;
+  font-weight: bold;
+}
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px; 
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+}
+.navbar-brand img {
+  width: 73px; 
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, .btn-naranja {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-purpura);
+  font-size: 18px; 
+}
+
+
+.text-naranja {
+  color: var(--color-purpura);
+}
+
+/* Fondos lila */
+.bg-naranja {
+  background-color: var(--color-lila);
+  color: var(--color-blanco);
+}
+
+
+.btn-naranja {
+  background-color: var(--color-lila);
+  border: none;
+  color: var(--color-blanco);
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(138, 121, 175, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn-naranja:hover,
+.btn-naranja:focus {
+  background-color: var(--color-purpura);
+  color: var(--color-blanco);
+  box-shadow: 0 6px 12px rgba(93, 58, 125, 0.7);
+  outline: none;
+}
+
+header, footer {
+  background-color: var(--color-blanco);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  font-size: 18px; 
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+nav a {
+  color: var(--color-texto);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.1rem; 
+  letter-spacing: 0.04em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--color-lila);
+  background-color: rgba(138, 121, 175, 0.1);
+  outline: none;
+}
+
+
+.hero {
+  height: 420px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 0 8px 16px rgba(138, 121, 175, 0.25);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(138, 121, 175, 0.7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hero-overlay h2 {
+  font-size: 4rem; 
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.hero-overlay p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+}
+
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  background-color: var(--color-blanco);
+  padding: 3rem 2.5rem;
+  cursor: default;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+}
+
+.card h5 {
+  color: var(--color-lila);
+  margin-bottom: 1.6rem;
+  font-weight: 900;
+  font-size: 1.7rem; 
+  letter-spacing: 0.06em;
+}
+
+.card p {
+  color: var(--color-texto);
+  font-size: 1.23rem; 
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.testimonial {
+  background-color: var(--color-blanco);
+  padding: 3.2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.12);
+  margin-bottom: 2rem;
+  font-style: italic;
+  color: var(--color-texto);
+  font-size: 1.23rem; 
+  position: relative;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.testimonial strong {
+  display: block;
+  margin-top: 1.6rem;
+  font-style: normal;
+  color: var(--color-lila);
+  font-weight: 900;
+  font-size: 1.44rem; 
+  letter-spacing: 0.04em;
+}
+
+
+form label {
+  font-weight: 700;
+  color: var(--color-texto);
+  font-size: 1.23rem; 
+  letter-spacing: 0.03em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 7px;
+  padding: 1rem;
+  font-size: 1.23rem; 
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Lora', serif;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: var(--color-lila);
+  outline: none;
+  box-shadow: 0 0 12px rgba(138, 121, 175, 0.8);
+}
+
+footer {
+  background-color: var(--color-purpura);
+  color: var(--color-blanco);
+  padding: 2rem 0;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+
+@media (max-width: 767px) {
+  .hero {
+    height: 300px;
+  }
+  .hero-overlay h2 {
+    font-size: 2.66rem;
+  }
+  .hero-overlay p {
+    font-size: 1.43rem; 
+  }
+}
+
+
+section.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (max-width: 575px) {
+  nav a {
+    font-size: 1.1rem;
+    margin: 0 0.4rem;
+  }
+  .btn-naranja {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    font-size: 17px; 
+  }
+}
+
+
+@media (min-width: 1200px) {
+  h1, h2, h3, h4, h5, h6, .btn-naranja {
+    font-size: 15px; 
+  }
+  .hero-overlay h2 {
+    font-size: 3.9rem; 
+  }
+  .hero-overlay p {
+    font-size: 2.2rem;
+  }
+  .card h5 {
+    font-size: 2.2rem; 
+  }
+  .card p, .testimonial {
+    font-size: 1.4rem; 
+  }
+}
+
+
+@media (max-width: 479px) {
+  h1, h2, h3, h4, h5, h6, .btn-naranja {
+    font-size: 14px; 
+  }
+  .hero-overlay h2 {
+    font-size: 2rem; 
+  }
+  .hero-overlay p {
+    font-size: 1.1rem; 
+  }
+  .card h5 {
+    font-size: 1.2rem; 
+  }
+  .card p, .testimonial {
+    font-size: 1rem; 
+  }.navbar-brand img {
+  width: 60px; 
+  height: auto;
+}
+}

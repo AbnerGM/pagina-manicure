@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centro de Belleza - Inicio</title>
+  <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <header class="p-3 mb-0 bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+       <a class="navbar-brand" href="/">
+        <h1>Manicure belleza</h1>
+</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link mx-2" href="/">Inicio</a>
+            <a class="nav-link mx-2" href="/nosotros">Nosotros</a>
+            <a class="nav-link mx-2" href="/servicios">Servicios</a>
+            <a class="nav-link mx-2" href="/ubicacion">Ubicación</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero position-relative mb-4 rounded">
+    <div class="hero-overlay d-flex justify-content-center align-items-center text-center text-white p-3 rounded">
+      <div>
+        <h2 class="display-4 fw-bold">Tu belleza, nuestro compromiso</h2>
+        <p class="lead">Tratamientos personalizados para uñas y piel con productos naturales.</p>
+        <a href="/servicios" class="btn btn-naranja btn-lg mt-3">Conoce nuestros servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6">
+        <h2 class="mb-4">Sobre Nosotros</h2>
+        <p>En Manicure & Cosmiatría nos apasiona cuidar y realzar la belleza natural de cada persona. Contamos con un equipo profesional certificado que utiliza productos orgánicos para garantizar resultados saludables y duraderos.</p>
+        <p>Nuestra misión es que cada cliente salga satisfecho y renovado, con una experiencia única y agradable.</p>
+      </div>
+      <div class="col-12 col-md-6 px-5">
+        <img src="/img/spa-salon.jpg" alt="Nuestro salón" class="img-fluid rounded shadow" width="400" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5">
+    <h3 class="mb-4 text-naranja">Servicios Destacados</h3>
+    <div class="row">
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card p-4 text-center shadow-sm rounded">
+          <h5>Manicure Tradicional</h5>
+          <p>Cuidado y belleza para tus uñas.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card p-4 text-center shadow-sm rounded">
+          <h5>Limpieza Facial</h5>
+          <p>Tratamientos para una piel radiante.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card p-4 text-center shadow-sm rounded">
+          <h5>Uñas Acrílicas</h5>
+          <p>Estilo y durabilidad para tus manos.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card p-4 text-center shadow-sm rounded">
+          <h5>Masajes Relajantes</h5>
+          <p>Relaja cuerpo y mente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5">
+    <h3 class="mb-4 text-naranja">Lo que dicen nuestros clientes</h3>
+    <div class="row">
+      <div class="col-12 col-md-4 mb-4">
+        <div class="testimonial p-4 rounded shadow-sm">
+          "Excelente servicio y ambiente muy acogedor. Mi mejor elección."
+          <br /><strong>- Ana P.</strong>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="testimonial p-4 rounded shadow-sm">
+          "La limpieza facial me dejó la piel suave y radiante. ¡Totalmente recomendable!"
+          <br /><strong>- Carlos M.</strong>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="testimonial p-4 rounded shadow-sm">
+          "Profesionales y atentos. Siempre vuelvo por sus masajes relajantes."
+          <br /><strong>- María R.</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mb-5 bg-naranja text-white p-4 rounded text-center">
+    <h3>Promoción Especial</h3>
+    <p class="lead">10% de descuento en tu primera sesión de manicure. ¡Reserva ahora!</p>
+    <a href="/contacto" class="btn btn-light mt-3">Reserva tu cita</a>
+  </section>
+
+  <section class="container mb-5">
+    <h3 class="mb-4 text-naranja">Contáctanos</h3>
+    <form action="/contacto" method="POST" class="row g-3">
+      <div class="col-12 col-md-6">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required />
+      </div>
+      <div class="col-12 col-md-6">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" name="email" required />
+      </div>
+      <div class="col-12">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-naranja px-5">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white p-3 text-center">
+    <p>&copy; 2025 Manicure & Cosmiatría - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
